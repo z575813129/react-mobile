@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+    - "10"
+    - "12"
+env:
+    - REACT=16.x
+script:
+    - npm test
+    - npm run coverage
+before_install:
+    - npm install
+after_script:
+    npm install coveralls && nyc report --reporter=text-lcov | coveralls
