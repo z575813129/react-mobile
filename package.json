@@ -68,7 +68,7 @@
     "file-loader": "^0.8.5",
     "gh-pages": "^1.0.0",
     "github-markdown-css": "^2.4.1",
-    "highlight.js": "^9.8.0",
+    "highlight.js": "^10.4.1",
     "history": "^4.5.1",
     "html-webpack-plugin": "^2.14.0",
     "ignore-styles": "^5.0.1",
